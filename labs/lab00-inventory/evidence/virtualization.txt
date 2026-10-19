@@ -1,0 +1,19 @@
+﻿COMMAND: Get-CimInstance Win32_Processor | Select-Object Name, VMMonitorModeExtensions, VirtualizationFirmwareEnabled, SecondLevelAddressTranslationExtensions | Format-List
+
+
+Name                                    : AMD Ryzen 7 7735HS with Radeon Graphics        
+VMMonitorModeExtensions                 : True
+VirtualizationFirmwareEnabled           : True
+SecondLevelAddressTranslationExtensions : True
+
+
+
+
+COMMAND: Get-CimInstance Win32_ComputerSystem | Select-Object HypervisorPresent | Format-List
+
+
+HypervisorPresent : False
+
+
+
+

@@ -1,0 +1,22 @@
+﻿COMMAND: Get-PhysicalDisk | Select-Object FriendlyName, MediaType, BusType | Format-List
+
+
+FriendlyName : SSSTC CL6-8D1024
+MediaType    : SSD
+BusType      : NVMe
+
+FriendlyName : Msft Virtual Disk
+MediaType    : SSD
+BusType      : File Backed Virtual
+
+
+
+
+COMMAND: Get-Volume | Where-Object { $_.DriveLetter -and $_.DriveType -eq "Fixed" } | Select-Object DriveLetter, @{Name="Total_GiB";Expression={[math]::Round($_.Size / 1GB, 2)}}, @{Name="Free_GiB";Expression={[math]::Round($_.SizeRemaining / 1GB, 2)}} | Format-Table -AutoSize
+
+DriveLetter Total_GiB Free_GiB
+----------- --------- --------
+          C    952.49   399.28
+
+
+

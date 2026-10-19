@@ -1,0 +1,35 @@
+﻿COMMAND: Get-CimInstance Win32_PhysicalMemory | Select-Object DeviceLocator, Capacity, Speed, ConfiguredClockSpeed | Format-List
+
+
+DeviceLocator        : DIMM 0
+Capacity             : 4294967296
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DeviceLocator        : DIMM 0
+Capacity             : 4294967296
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DeviceLocator        : DIMM 0
+Capacity             : 4294967296
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DeviceLocator        : DIMM 0
+Capacity             : 4294967296
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+
+
+
+COMMAND: Get-CimInstance Win32_PhysicalMemory | Measure-Object -Property Capacity -Sum | Format-List Count, Sum
+
+
+Count : 4
+Sum   : 17179869184
+
+
+
+

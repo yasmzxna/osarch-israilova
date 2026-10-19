@@ -1,0 +1,18 @@
+﻿COMMAND: Get-ComputerInfo -Property BiosFirmwareType | Format-List
+
+
+BiosFirmwareType : Uefi
+
+
+
+
+COMMAND: Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, ReleaseDate | Format-List
+
+
+Manufacturer      : American Megatrends International, LLC.
+SMBIOSBIOSVersion : 10.02
+ReleaseDate       : 7/25/2024 5:00:00 AM
+
+
+
+

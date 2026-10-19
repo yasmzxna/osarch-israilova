@@ -1,0 +1,10 @@
+﻿COMMAND: Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors | Format-List
+
+
+Name                      : AMD Ryzen 7 7735HS with Radeon Graphics        
+NumberOfCores             : 8
+NumberOfLogicalProcessors : 16
+
+
+
+
