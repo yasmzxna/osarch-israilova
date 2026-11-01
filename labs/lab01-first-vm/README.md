@@ -22,3 +22,7 @@ I created the clean-install snapshot before making changes. I intentionally brok
 - evidence/guest-release.txt - Ubuntu release information
 - evidence/broken.png - VM in the broken state
 - evidence/snapshot-list.png - snapshot list after rollback
+
+## What did not work the first time
+
+During my first attempt, Ubuntu rejected my `sudo` password, so the privileged command did not run. I had to troubleshoot the authentication before continuing with the lab.
