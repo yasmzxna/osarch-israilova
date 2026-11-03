@@ -1,0 +1,28 @@
+PS C:\Users\yasmin\Desktop> ipconfig /all | Tee-Object ipconfig-windows.txt
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-KNR8RCS
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physical Address. . . . . . . . . : 08-00-27-23-A1-3C
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::3247:e866:2701:b97%2(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.0.2.4(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, November 3, 2026 11:37:28 AM
+   Lease Expires . . . . . . . . . . : Tuesday, November 3, 2026 11:48:03 AM
+   Default Gateway . . . . . . . . . : 10.0.2.1
+   DHCP Server . . . . . . . . . . . : 10.0.2.2
+   DHCPv6 IAID . . . . . . . . . . . : 101187623
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-32-7C-24-8F-08-00-27-23-A1-3C
+   DNS Servers . . . . . . . . . . . : 192.168.0.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled

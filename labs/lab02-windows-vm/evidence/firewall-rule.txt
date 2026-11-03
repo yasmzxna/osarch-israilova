@@ -1,0 +1,8 @@
+PS C:\Users\yasmin\Desktop> Get-NetFirewallRule -DisplayName "Allow ICMPv4 Echo In" | Format-List DisplayName,Enabled,Direction,Action,Profile
+
+
+DisplayName : Allow ICMPv4 Echo In
+Enabled     : True
+Direction   : Inbound
+Action      : Allow
+Profile     : Any

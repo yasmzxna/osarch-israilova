@@ -1,0 +1,10 @@
+PS C:\Users\yasmin\Desktop> Get-NetConnectionProfile
+
+
+Name                     : Network
+InterfaceAlias           : Ethernet
+InterfaceIndex           : 2
+NetworkCategory          : Public
+DomainAuthenticationKind : None
+IPv4Connectivity         : Internet
+IPv6Connectivity         : NoTraffic
