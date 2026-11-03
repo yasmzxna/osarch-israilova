@@ -105,14 +105,15 @@ Open the section **Hard Disk** (Укажите виртуальный жёстк
 ![](evidence/02-disk-settings.png)
 
 Why not pre-allocated: an un-preallocated ("dynamic") disk only takes the space that is actually used —
-about 5 GB after installation instead of 25 GB at once. It is slightly slower, which does not matter for a
+about 6 GB after installation instead of 25 GB at once (Windows: about 22 GB instead of 64 GB). It is slightly slower, which does not matter for a
 test machine.
 
 > **Check:** `test-ubuntu` is in the list on the left, state *Powered Off*.
 
 ## Step 6. Connect the Linux machine to the shared network
 
-Select `test-ubuntu` → **Settings** (Настроить) **→ Network** (Сеть) **→ Adapter 1** (Адаптер 1) → **Attached to** (Тип подключения): **NAT Network** (Сеть NAT),
+Select `test-ubuntu` → **Settings** (Настроить). If you do not see **Network** (Сеть) in the list on the left,
+switch the settings window to **Expert** (Расширенные) at the top — in VirtualBox 7.2 the basic view hides it. Then **→ Network** (Сеть) **→ Adapter 1** (Адаптер 1) → **Attached to** (Тип подключения): **NAT Network** (Сеть NAT),
 **Name** (Имя): **NatNetwork** → **OK**. Leave *Cable Connected* (Подключить виртуальный кабель) ticked.
 
 ![](evidence/03-network-adapter.png)
@@ -248,6 +249,7 @@ Shut the machine down → **Snapshots** → select `clean-install` → **Restore
 |---|---|
 | Windows install says "This PC can't run Windows 11" | Step 8: TPM v2.0 and Secure Boot not set, or memory under 4096 MB |
 | Ubuntu → Windows ping 100 % loss | Step 11 was skipped or run in a non-admin terminal |
+| Settings window has no **Network** section | Switch to **Expert** (Расширенные) at the top of the settings window |
 | The machines get addresses like `10.0.2.15` and cannot see each other | Adapter is plain *NAT*, not *NAT Network* — repeat Step 6 for both |
 | The whole computer becomes very slow or freezes | Too much memory given away. Shut one machine down; lower memory per Step 0 |
 | VirtualBox says "VT-x/AMD-V is not available" | Virtualization is off in the computer's BIOS — ask IT to switch it on |

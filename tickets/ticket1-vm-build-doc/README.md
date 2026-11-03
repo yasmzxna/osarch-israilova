@@ -131,8 +131,8 @@ Home, macOS and Linux, so the document stays valid whatever computer the next pe
 **Windows evaluation vs. a licensed copy.** Evaluation costs nothing and is ready by Monday; the cost is the
 90-day expiry. I chose it and made the expiry visible in Step 2 instead of hiding it.
 
-**Dynamic vs. fixed disk.** Fixed is a little faster but takes all 89 GB immediately; dynamic takes ~20 GB
-after installation. For a test machine the space matters more than the speed.
+**Dynamic vs. fixed disk.** Fixed is a little faster but takes all 89 GB immediately; dynamic takes what is
+written — measured: 6.3 GB + 22.1 GB = 28.4 GB ([18-disk-info.txt](evidence/18-disk-info.txt)). For a test machine the space matters more than the speed.
 
 ### What went wrong and how I resolved it
 
@@ -152,6 +152,33 @@ as *Available* (6 + 2 = 8 GB), and that rule became **Step 0** of BUILD.md — t
 document for someone repeating it on an unknown computer. Full log and figures: Lab 2,
 `labs/lab02-windows-vm/evidence/vbox-log-extract.txt` and `host-memory-after.png`.
 
+**Checking the machines with `VBoxManage` showed my report was wrong in two places.** I had assumed the
+settings from my notes were still true. Reading them back from VirtualBox instead:
+
+```powershell
+$vb = "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
+& $vb showvminfo win11 | Select-String "Memory size|Number of CPUs|Firmware|Secure Boot|NIC 1:"
+& $vb snapshot win11 list
+```
+
+| Expected (from my notes) | Got | Concluded |
+|---|---|---|
+| win11 6144 MB, lab01-ubuntu 2048 MB | **10240 MB and 8192 MB** | the Lab 2 overcommit run 1 values were never set back — starting both guests now would freeze the laptop again |
+| `clean-install` on both guests | win11: *This machine does not have any snapshots* | only Ubuntu (from Lab 1) had one; "without breaking anything" was not true for Windows |
+
+Fixed with both guests powered off, then re-read into [17-vm-settings.txt](evidence/17-vm-settings.txt) and
+[06b-snapshot-list.txt](evidence/06b-snapshot-list.txt):
+
+```powershell
+& $vb modifyvm win11 --memory 6144
+& $vb modifyvm lab01-ubuntu --memory 2048
+& $vb snapshot win11 take clean-install --description "Clean install, before handing to the developer"
+```
+
+A dead end on the way: `showmediuminfo` with the disk *path* failed with `VERR_PATH_NOT_FOUND`, because my
+user folder `C:\Users\Ясмина` has Cyrillic letters and the path was garbled when passed through the pipe.
+Passing the disk's UUID instead of its path worked.
+
 Two smaller problems also went into the troubleshooting table: Linux → Windows ping was **100 % lost**
 until the firewall rule was added ([11-ping-blocked-before-rule.txt](evidence/11-ping-blocked-before-rule.txt),
 [12-firewall-profile.txt](evidence/12-firewall-profile.txt)), and an SSH port-forward I had pointed at the
@@ -163,13 +190,14 @@ network address `10.0.2.0` instead of the guest `10.0.2.3` gave `Connection refu
 |---|---|
 | [evidence/01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) | New VM wizard, step 4: name `test-ubuntu`, the Ubuntu 26.04.1 ISO, automatic installation **off** |
 | [evidence/01b-new-vm-hardware.png](evidence/01b-new-vm-hardware.png) | Same wizard, hardware section: 2048 MB memory, 2 CPUs, EFI off — the figures from the resource calculation |
-| [evidence/02-disk-settings.png](evidence/02-disk-settings.png) | Disk size set to 25 GB (Step 5). It does not show the pre-allocate box — see section 5 |
+| [evidence/02-disk-settings.png](evidence/02-disk-settings.png) | Disk size set to 25 GB (Step 5). It does not show the pre-allocate box; that the disks are dynamic is proven by `18-disk-info.txt` |
 | [evidence/03a-nat-network-manager.png](evidence/03a-nat-network-manager.png) | NatNetwork exists with IPv4 prefix 10.0.2.0/24 and DHCP enabled (Step 3) |
 | [evidence/03-network-adapter.png](evidence/03-network-adapter.png) | The **Ubuntu** guest's Adapter 1 is on *NAT Network → NatNetwork* (Step 6). Its MAC `080027AFFD30` is the same as in `09-ip-addr-linux.txt`, so this is the same machine that got 10.0.2.3 |
 | [evidence/03b-network-adapter-win11.png](evidence/03b-network-adapter-win11.png) | The **Windows** guest's adapter is on the same NatNetwork. MAC `08002723A13C` matches `10-ipconfig-windows.txt` (10.0.2.4) |
 | [evidence/04-guest-uname.txt](evidence/04-guest-uname.txt) | The Ubuntu guest boots and runs a Linux kernel: `uname -a` taken over SSH from the host and saved as UTF-8 text |
 | [evidence/05-ping-between-guests.txt](evidence/05-ping-between-guests.txt) | Both guests reach each other in both directions (0 % loss, TTL 128 = Windows, TTL 64 = Linux) **and** reach 8.8.8.8 and google.com — including the blocked first attempt, so it shows how the result was reached |
-| [evidence/06-snapshot-list.png](evidence/06-snapshot-list.png) | A clean snapshot exists to roll back to (Step 13) |
+| [evidence/06-snapshot-list.png](evidence/06-snapshot-list.png) | The Ubuntu snapshot in the VirtualBox window (Step 13) |
+| [evidence/06b-snapshot-list.txt](evidence/06b-snapshot-list.txt) | **Both** guests now have a `clean-install` snapshot, as text from `VBoxManage snapshot … list` — win11's was taken during this ticket (see "What went wrong") |
 | [evidence/07-win11-settings-summary.png](evidence/07-win11-settings-summary.png) | Windows guest as configured: 6144 MB, 4 CPUs, 64 GB, EFI / TPM 2.0 / Secure Boot, NAT Network (Step 8) |
 | [evidence/08-ubuntu-settings-summary.png](evidence/08-ubuntu-settings-summary.png) | Ubuntu guest settings summary |
 | [evidence/09-ip-addr-linux.txt](evidence/09-ip-addr-linux.txt) | Ubuntu got 10.0.2.3/24 from the NatNetwork DHCP |
@@ -180,6 +208,8 @@ network address `10.0.2.0` instead of the guest `10.0.2.3` gave `Connection refu
 | [evidence/14-host-memory-before.png](evidence/14-host-memory-before.png) | Host with guests off: 6.9 / 15.2 GB in use, 8.4 GB available — the figure the RAM calculation is based on |
 | [evidence/15-host-specs.txt](evidence/15-host-specs.txt) | Host CPU (8C/16T), 4 × 4 GB memory, 390 GB free on C:, no other hypervisor present |
 | [evidence/16-host-memory-before.txt](evidence/16-host-memory-before.txt) | Same memory state as text: 8,120 MB available, page file barely used |
+| [evidence/17-vm-settings.txt](evidence/17-vm-settings.txt) | Actual settings from `VBoxManage showvminfo`, as text: lab01-ubuntu 2048 MB / 2 CPUs / BIOS, win11 6144 MB / 4 CPUs / EFI / Secure Boot enabled, both NIC 1 on NAT Network 'NatNetwork' — the numbers in this report are read from the machines, not remembered |
+| [evidence/18-disk-info.txt](evidence/18-disk-info.txt) | Both base disks are `dynamic default`: Ubuntu uses 6,323 of 25,600 MB, Windows 22,140 of 65,536 MB — the measured saving behind the dynamic-disk decision. The two `differencing` disks are the snapshots |
 | [review/](review/) | Week 5: the first step at which a peer, following BUILD.md literally, got stuck — and the correction made |
 
 ## 5. What I would do differently
@@ -194,6 +224,9 @@ network address `10.0.2.0` instead of the guest `10.0.2.3` gave `Connection refu
 - **Capture the whole settings section, not a cropped strip.** My disk screenshot shows the 25 GB size but
   not the *pre-allocate* checkbox, so the one decision it was meant to prove (dynamic disk) is stated in the
   text but not visible in the evidence.
+- **Read the settings back from the machine before writing them down.** My report said 6 GB + 2 GB and
+  a snapshot on both guests; `VBoxManage` showed 10 GB + 8 GB and no Windows snapshot. One `showvminfo`
+  after the Lab 2 experiment would have caught it the same day.
 - **Test Step 0 on a smaller computer.** My laptop has 16 GB; I only reasoned about what happens on an 8 GB
   office PC. Following the document once on such a machine would show whether "run one guest at a time" is
   really enough.
