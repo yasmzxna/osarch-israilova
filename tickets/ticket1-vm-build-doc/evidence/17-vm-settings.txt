@@ -1,0 +1,16 @@
+﻿=== lab01-ubuntu ===
+
+Memory size:                 2048MB
+Firmware:                    BIOS
+Number of CPUs:              2
+NIC 1:                       MAC: 080027AFFD30, Attachment: NAT Network 'NatNetwork', Cable connected: on, Trace: off (file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot 
+priority: 0, Promisc Policy: deny, Bandwidth group: none
+=== win11 ===
+Memory size:                 6144MB
+Firmware:                    EFI
+Number of CPUs:              4
+UEFI Secure Boot:            enabled
+NIC 1:                       MAC: 08002723A13C, Attachment: NAT Network 'NatNetwork', Cable connected: on, Trace: off (file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot 
+priority: 0, Promisc Policy: deny, Bandwidth group: none
+
+

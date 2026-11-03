@@ -1,0 +1,19 @@
+﻿
+UUID:           042e6546-adc6-4bf8-be8c-8cf859ba7bd0
+Format variant: dynamic default
+Capacity:       25600 MBytes
+Size on disk:   6323 MBytes
+UUID:           1e018f72-3a4a-4298-946d-074d300fd839
+Format variant: differencing default
+Capacity:       25600 MBytes
+Size on disk:   404 MBytes
+UUID:           9c8e4145-ba7b-4318-a457-56e8fa1a6e11
+Format variant: dynamic default
+Capacity:       65536 MBytes
+Size on disk:   22140 MBytes
+UUID:           658cc364-8122-45e4-b684-0c8e24c02ebd
+Format variant: differencing default
+Capacity:       65536 MBytes
+Size on disk:   2 MBytes
+
+

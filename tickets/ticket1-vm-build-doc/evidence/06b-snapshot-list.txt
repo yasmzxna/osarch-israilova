@@ -1,0 +1,5 @@
+﻿=== snapshots: lab01-ubuntu ===
+   Name: clean-install (UUID: ddb8eba2-116d-4f66-a9eb-a8efcfc840f9) *
+=== snapshots: win11 ===
+   Name: clean-install (UUID: 17de2f0a-bc52-4556-963b-8b751178c21c) *
+   Description: Clean install, before handing to the developer
