@@ -1,0 +1,19 @@
+=== 11/03/2026 15:52:22 ===
+
+
+TotalMB : 15614
+FreeMB  : 8269
+
+AvailableMBytes            : 8120
+CommittedMB                : 13063
+CommitLimitMB              : 28414
+PercentCommittedBytesInUse : 45
+PagesPerSec                : 0
+
+Name              : C:\pagefile.sys
+AllocatedBaseSize : 12800
+CurrentUsage      : 396
+PeakUsage         : 2404
+
+
+

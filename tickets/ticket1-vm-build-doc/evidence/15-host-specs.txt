@@ -1,0 +1,33 @@
+
+
+Name                      : AMD Ryzen 7 7735HS with Radeon Graphics        
+NumberOfCores             : 8
+NumberOfLogicalProcessors : 16
+
+DeviceLocator        : DIMM 0
+CapacityGB           : 4
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DeviceLocator        : DIMM 0
+CapacityGB           : 4
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DeviceLocator        : DIMM 0
+CapacityGB           : 4
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DeviceLocator        : DIMM 0
+CapacityGB           : 4
+Speed                : 6400
+ConfiguredClockSpeed : 6400
+
+DriveLetter : C
+FreeGB      : 390
+
+HypervisorPresent : False
+
+
+
