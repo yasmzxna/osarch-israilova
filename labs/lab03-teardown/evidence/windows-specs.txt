@@ -1,0 +1,54 @@
+﻿=== CPU ===
+
+
+Name                      : AMD Ryzen 7 7735HS with Radeon Graphics        
+NumberOfCores             : 8
+NumberOfLogicalProcessors : 16
+MaxClockSpeed             : 3201
+
+
+
+=== MEMORY ===
+
+
+Manufacturer     : Micron Technology
+PartNumber       : MT62F1G32D2DS-026 WT
+Capacity         : 4294967296
+Speed            : 6400
+SMBIOSMemoryType : 35
+
+Manufacturer     : Micron Technology
+PartNumber       : MT62F1G32D2DS-026 WT
+Capacity         : 4294967296
+Speed            : 6400
+SMBIOSMemoryType : 35
+
+Manufacturer     : Micron Technology
+PartNumber       : MT62F1G32D2DS-026 WT
+Capacity         : 4294967296
+Speed            : 6400
+SMBIOSMemoryType : 35
+
+Manufacturer     : Micron Technology
+PartNumber       : MT62F1G32D2DS-026 WT
+Capacity         : 4294967296
+Speed            : 6400
+SMBIOSMemoryType : 35
+
+
+
+=== DISKS ===
+
+
+FriendlyName : SSSTC CL6-8D1024
+MediaType    : SSD
+BusType      : NVMe
+Size         : 1024209543168
+
+FriendlyName : Msft Virtual Disk
+MediaType    : SSD
+BusType      : File Backed Virtual
+Size         : 33554432
+
+
+

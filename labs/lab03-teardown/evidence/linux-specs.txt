@@ -1,0 +1,54 @@
+# linux-specs.txt — Lab 3, evidence
+# OS: Ubuntu 26.04.1 LTS (Server), kernel 7.0.0-38-generic x86_64
+# NOTE: this output describes the VIRTUAL MACHINE "lab01-ubuntu" in Oracle VirtualBox
+#       (2 CPUs, 2048 MB RAM, 25 GB virtual disk allocated), not the physical laptop.
+# Output transcribed from the VM console (no clipboard in Ubuntu Server console).
+# The "Flags" line was wider than the screen; the cut-off part is marked [...].
+
+yasmina@lab01-israilova:~$ lscpu | head -25
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               2
+On-line CPU(s) list:                  0,1
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD Ryzen 7 7735HS with Radeon Graphics
+CPU family:                           25
+Model:                                68
+Thread(s) per core:                   1
+Core(s) per socket:                   2
+Socket(s):                            1
+Stepping:                             1
+BogoMIPS:                             6387.98
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext [...]
+                                      fxsr_opt rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe pop[...]
+                                      cnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch vmmcall fsgsbase bmi1 avx2 bmi2 invpcid rdseed adx cl[...]
+                                      flushopt sha_ni arat debug_swap
+Hypervisor vendor:                    KVM
+Virtualization type:                  full
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0,1
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Ghostwrite:             Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+
+yasmina@lab01-israilova:~$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       375Mi       836Mi       1.1Mi       576Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+yasmina@lab01-israilova:~$ lsblk
+NAME                      MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+loop0                       7:0    0 66.8M  1 loop /snap/core24/1643
+loop1                       7:1    0  1.5M  1 loop /snap/hwctl/123
+loop2                       7:2    0 50.1M  1 loop /snap/snapd/27710
+loop3                       7:3    0  1.5M  1 loop /snap/hwctl/131
+sda                         8:0    0   25G  0 disk
+├─sda1                      8:1    0    1M  0 part
+├─sda2                      8:2    0    2G  0 part /boot
+└─sda3                      8:3    0   23G  0 part
+  └─ubuntu--vg-ubuntu--lv 252:0    0 11.5G  0 lvm  /
+sr0                        11:0    1 1024M  0 rom
