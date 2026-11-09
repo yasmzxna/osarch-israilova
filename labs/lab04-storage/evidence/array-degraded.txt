@@ -1,0 +1,34 @@
+Personalities : [raid1] 
+md0 : active raid1 sdb1[0]
+      1045504 blocks super 1.2 [2/1] [U_]
+      bitmap: 0/1 pages [0KB], 65536KB chunk
+
+unused devices: <none>
+/dev/md0:
+           Version : 1.2
+     Creation Time : Mon Nov  9 12:54:47 2026
+        Raid Level : raid1
+        Array Size : 1045504 (1021.00 MiB 1070.60 MB)
+     Used Dev Size : 1045504 (1021.00 MiB 1070.60 MB)
+      Raid Devices : 2
+     Total Devices : 1
+       Persistence : Superblock is persistent
+
+     Intent Bitmap : Internal
+
+       Update Time : Mon Nov  9 13:06:54 2026
+             State : clean, degraded 
+    Active Devices : 1
+   Working Devices : 1
+    Failed Devices : 0
+     Spare Devices : 0
+
+Consistency Policy : bitmap
+
+              Name : lab01-israilova:0  (local to host lab01-israilova)
+              UUID : f938d367:36ff4a70:7efb6972:5b03e995
+            Events : 21
+
+    Number   Major   Minor   RaidDevice State
+       0       8       17        0      active sync   /dev/sdb1
+       -       0        0        1      removed
