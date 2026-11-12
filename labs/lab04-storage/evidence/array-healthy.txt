@@ -1,9 +1,15 @@
+$ date
+Thu Nov 12 05:49:22 AM UTC 2026
+
+$ cat /proc/mdstat
 Personalities : [raid1] 
-md0 : active raid1 sdc1[1] sdb1[0]
+md0 : active raid1 sdb1[0] sdd1[2]
       1045504 blocks super 1.2 [2/2] [UU]
-      bitmap: 0/1 pages [0KB], 65536KB chunk
+      bitmap: 1/1 pages [4KB], 65536KB chunk
 
 unused devices: <none>
+
+$ sudo mdadm --detail /dev/md0
 /dev/md0:
            Version : 1.2
      Creation Time : Mon Nov  9 12:54:47 2026
@@ -16,7 +22,7 @@ unused devices: <none>
 
      Intent Bitmap : Internal
 
-       Update Time : Mon Nov  9 12:57:44 2026
+       Update Time : Thu Nov 12 05:49:14 2026
              State : clean 
     Active Devices : 2
    Working Devices : 2
@@ -27,8 +33,9 @@ Consistency Policy : bitmap
 
               Name : lab01-israilova:0  (local to host lab01-israilova)
               UUID : f938d367:36ff4a70:7efb6972:5b03e995
-            Events : 18
+            Events : 45
 
     Number   Major   Minor   RaidDevice State
        0       8       17        0      active sync   /dev/sdb1
-       1       8       33        1      active sync   /dev/sdc1
+       2       8       49        1      active sync   /dev/sdd1
+

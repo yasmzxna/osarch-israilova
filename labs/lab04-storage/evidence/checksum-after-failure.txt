@@ -1,1 +1,13 @@
+$ date
+Thu Nov 12 05:53:18 AM UTC 2026
+
+$ sudo sysctl vm.drop_caches=3
+vm.drop_caches = 3
+
+$ cat /mnt/mirror/proof.txt
+OSArch Lab 4 - Israilova - RAID1 proof file
+
+$ sha256sum /mnt/mirror/proof.txt /mnt/mirror/random.bin
 e4f80b2e198af20988cd2ba76d51e470806f0d4ad92e725ea6af60ee3b5440bb  /mnt/mirror/proof.txt
+029cc08f35aa94df3e66cbabac06b1352c2d9f31e201b9c9df1c2d26b47e0f5a  /mnt/mirror/random.bin
+

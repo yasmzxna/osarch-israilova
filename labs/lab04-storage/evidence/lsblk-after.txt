@@ -1,6 +1,7 @@
+$ lsblk
 NAME                      MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINTS
-loop0                       7:0    0  1.5M  1 loop  /snap/hwctl/123
-loop1                       7:1    0 66.8M  1 loop  /snap/core24/1643
+loop0                       7:0    0 66.8M  1 loop  /snap/core24/1643
+loop1                       7:1    0  1.5M  1 loop  /snap/hwctl/123
 loop2                       7:2    0  1.5M  1 loop  /snap/hwctl/131
 loop3                       7:3    0 50.1M  1 loop  /snap/snapd/27710
 sda                         8:0    0   25G  0 disk  
@@ -10,10 +11,11 @@ sda                         8:0    0   25G  0 disk
   └─ubuntu--vg-ubuntu--lv 252:0    0 11.5G  0 lvm   /
 sdb                         8:16   0    1G  0 disk  
 └─sdb1                      8:17   0 1022M  0 part  
-  └─md0                     9:0    0 1021M  0 raid1 /mnt/mirror
 sdc                         8:32   0    1G  0 disk  
 └─sdc1                      8:33   0 1022M  0 part  
+  └─md0                     9:0    0 1021M  0 raid1 /mnt/mirror
 sdd                         8:48   0    1G  0 disk  
 └─sdd1                      8:49   0 1022M  0 part  
   └─md0                     9:0    0 1021M  0 raid1 /mnt/mirror
 sr0                        11:0    1 1024M  1 rom   
+

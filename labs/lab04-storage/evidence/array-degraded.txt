@@ -1,9 +1,20 @@
+$ date
+Thu Nov 12 05:53:16 AM UTC 2026
+
+$ sudo mdadm --manage /dev/md0 --fail /dev/sdb1
+
+$ sudo mdadm --manage /dev/md0 --remove /dev/sdb1
+mdadm: hot removed /dev/sdb1 from /dev/md0
+
+$ cat /proc/mdstat
 Personalities : [raid1] 
-md0 : active raid1 sdb1[0]
-      1045504 blocks super 1.2 [2/1] [U_]
+md0 : active raid1 sdd1[2]
+      1045504 blocks super 1.2 [2/1] [_U]
       bitmap: 0/1 pages [0KB], 65536KB chunk
 
 unused devices: <none>
+
+$ sudo mdadm --detail /dev/md0
 /dev/md0:
            Version : 1.2
      Creation Time : Mon Nov  9 12:54:47 2026
@@ -16,7 +27,7 @@ unused devices: <none>
 
      Intent Bitmap : Internal
 
-       Update Time : Mon Nov  9 13:06:54 2026
+       Update Time : Thu Nov 12 05:53:18 2026
              State : clean, degraded 
     Active Devices : 1
    Working Devices : 1
@@ -27,8 +38,9 @@ Consistency Policy : bitmap
 
               Name : lab01-israilova:0  (local to host lab01-israilova)
               UUID : f938d367:36ff4a70:7efb6972:5b03e995
-            Events : 21
+            Events : 47
 
     Number   Major   Minor   RaidDevice State
-       0       8       17        0      active sync   /dev/sdb1
-       -       0        0        1      removed
+       -       0        0        0      removed
+       2       8       49        1      active sync   /dev/sdd1
+

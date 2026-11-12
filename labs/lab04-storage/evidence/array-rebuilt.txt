@@ -1,9 +1,29 @@
+$ date
+Thu Nov 12 05:54:35 AM UTC 2026
+
+$ sudo mdadm --manage /dev/md0 --add /dev/sdc1
+mdadm: added /dev/sdc1
+
+$ cat /proc/mdstat
 Personalities : [raid1] 
-md0 : active raid1 sdd1[2] sdb1[0]
+md0 : active raid1 sdc1[3] sdd1[2]
+      1045504 blocks super 1.2 [2/1] [_U]
+      [=>...................]  recovery =  6.2% (65408/1045504) finish=0.2min speed=65408K/sec
+      bitmap: 0/1 pages [0KB], 65536KB chunk
+
+unused devices: <none>
+
+$ sudo mdadm --wait /dev/md0
+
+$ cat /proc/mdstat
+Personalities : [raid1] 
+md0 : active raid1 sdc1[3] sdd1[2]
       1045504 blocks super 1.2 [2/2] [UU]
       bitmap: 0/1 pages [0KB], 65536KB chunk
 
 unused devices: <none>
+
+$ sudo mdadm --detail /dev/md0
 /dev/md0:
            Version : 1.2
      Creation Time : Mon Nov  9 12:54:47 2026
@@ -16,7 +36,7 @@ unused devices: <none>
 
      Intent Bitmap : Internal
 
-       Update Time : Mon Nov  9 13:11:56 2026
+       Update Time : Thu Nov 12 05:54:41 2026
              State : clean 
     Active Devices : 2
    Working Devices : 2
@@ -27,19 +47,23 @@ Consistency Policy : bitmap
 
               Name : lab01-israilova:0  (local to host lab01-israilova)
               UUID : f938d367:36ff4a70:7efb6972:5b03e995
-            Events : 41
+            Events : 67
 
     Number   Major   Minor   RaidDevice State
-       0       8       17        0      active sync   /dev/sdb1
+       3       8       33        0      active sync   /dev/sdc1
        2       8       49        1      active sync   /dev/sdd1
-[ 1875.958137] md0: array will not be assembled in old kernels that lack configurable LBS support (<= 6.18)
-[ 1875.958143] md/raid1:md0: not clean -- starting background reconstruction
-[ 1875.958146] md/raid1:md0: active with 2 out of 2 mirrors
-[ 1875.959929] md0: detected capacity change from 0 to 2091008
-[ 1875.963167] md: resync of RAID array md0
-[ 1880.749582] md: md0: resync done.
-[ 2000.274090] EXT4-fs (md0): mounted filesystem b35b09ed-d3e6-48bc-ae81-6c3eb947ca4b r/w with ordered data mode. Quota mode: none.
-[ 2505.800841] md/raid1:md0: Disk failure on sdc1, disabling device.
-               md/raid1:md0: Operation continuing on 1 devices.
-[ 2820.921730] md: recover of RAID array md0
-[ 2825.813565] md: md0: recover done.
+
+$ sha256sum /mnt/mirror/proof.txt /mnt/mirror/random.bin
+e4f80b2e198af20988cd2ba76d51e470806f0d4ad92e725ea6af60ee3b5440bb  /mnt/mirror/proof.txt
+029cc08f35aa94df3e66cbabac06b1352c2d9f31e201b9c9df1c2d26b47e0f5a  /mnt/mirror/random.bin
+
+$ sudo journalctl -k -b -g md0 --no-pager
+Nov 12 05:44:40 lab01-israilova kernel: md/raid1:md0: active with 2 out of 2 mirrors
+Nov 12 05:44:41 lab01-israilova kernel: md0: detected capacity change from 0 to 2091008
+Nov 12 05:48:39 lab01-israilova kernel: EXT4-fs (md0): recovery complete
+Nov 12 05:48:39 lab01-israilova kernel: EXT4-fs (md0): mounted filesystem b35b09ed-d3e6-48bc-ae81-6c3eb947ca4b r/w with ordered data mode. Quota mode: none.
+Nov 12 05:53:18 lab01-israilova kernel: md/raid1:md0: Disk failure on sdb1, disabling device.
+                                        md/raid1:md0: Operation continuing on 1 devices.
+Nov 12 05:54:36 lab01-israilova kernel: md: recover of RAID array md0
+Nov 12 05:54:41 lab01-israilova kernel: md: md0: recover done.
+

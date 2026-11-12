@@ -1,3 +1,4 @@
+$ lsblk
 NAME                      MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
 loop0                       7:0    0  1.5M  1 loop /snap/hwctl/123
 loop1                       7:1    0 66.8M  1 loop /snap/core24/1643

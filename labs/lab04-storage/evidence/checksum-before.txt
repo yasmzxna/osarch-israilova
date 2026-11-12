@@ -1,1 +1,16 @@
+$ sudo dd if=/dev/urandom of=/mnt/mirror/random.bin bs=1M count=100 status=none
+
+$ sync
+
+$ ls -la /mnt/mirror
+total 102428
+drwxr-xr-x 3 root root      4096 Nov 12 05:49 .
+drwxr-xr-x 3 root root      4096 Nov  9 12:56 ..
+drwx------ 2 root root     16384 Nov  9 12:56 lost+found
+-rw-r--r-- 1 root root        44 Nov  9 13:03 proof.txt
+-rw-r--r-- 1 root root 104857600 Nov 12 05:49 random.bin
+
+$ sha256sum /mnt/mirror/proof.txt /mnt/mirror/random.bin
 e4f80b2e198af20988cd2ba76d51e470806f0d4ad92e725ea6af60ee3b5440bb  /mnt/mirror/proof.txt
+029cc08f35aa94df3e66cbabac06b1352c2d9f31e201b9c9df1c2d26b47e0f5a  /mnt/mirror/random.bin
+
