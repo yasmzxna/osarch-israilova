@@ -1,0 +1,1056 @@
+=== BEFORE Thu Nov 12 09:56:45 AM UTC 2026 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       432Mi       556Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+NAME      TYPE SIZE USED PRIO
+/swap.img file   2G   0B   -1
+=== 09:56:45 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       434Mi       554Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:56:48 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       423Mi       564Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:56:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       419Mi       569Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:56:54 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       419Mi       569Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:56:57 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       414Mi       574Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:00 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       410Mi       578Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       410Mi       578Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       410Mi       578Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:09 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       410Mi       577Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:24 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       405Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       405Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:30 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       405Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:39 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:45 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:57:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:01 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:09 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:15 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:25 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       582Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:35 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       406Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:44 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:50 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       581Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:58:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       580Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       432Mi       556Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:09 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       430Mi       558Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       430Mi       558Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:15 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       430Mi       558Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       425Mi       562Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       424Mi       564Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:25 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       418Mi       569Mi       1.1Mi       806Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       543Mi       445Mi       1.3Mi       807Mi       1.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       862Mi       125Mi       1.3Mi       807Mi       779Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:34 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       636Mi       351Mi       1.3Mi       807Mi       1.0Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       828Mi       159Mi       1.3Mi       807Mi       813Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:40 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       855Mi       133Mi       1.3Mi       807Mi       787Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       839Mi       149Mi       1.3Mi       807Mi       803Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       682Mi       305Mi       1.3Mi       807Mi       959Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:49 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       784Mi       203Mi       1.3Mi       807Mi       857Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       819Mi       168Mi       1.3Mi       807Mi       822Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       550Mi       437Mi       1.3Mi       807Mi       1.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 09:59:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       712Mi       276Mi       1.3Mi       807Mi       930Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       899Mi        88Mi       1.3Mi       807Mi       742Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       736Mi       251Mi       1.3Mi       807Mi       905Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       698Mi       290Mi       1.3Mi       807Mi       944Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       478Mi       509Mi       1.3Mi       807Mi       1.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:14 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       443Mi       545Mi       1.3Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       394Mi       593Mi       1.3Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:20 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       394Mi       593Mi       1.3Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       394Mi       593Mi       1.3Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       399Mi       588Mi       1.1Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:29 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       400Mi       588Mi       1.1Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       400Mi       588Mi       1.1Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:35 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       400Mi       588Mi       1.1Mi       807Mi       1.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       591Mi       421Mi       1.3Mi       781Mi       1.0Gi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       674Mi       339Mi       1.3Mi       781Mi       967Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:44 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       717Mi       296Mi       1.3Mi       781Mi       924Mi
+Swap:          2.0Gi       239Mi       1.8Gi
+=== 10:00:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       741Mi       272Mi       1.3Mi       781Mi       901Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:50 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       930Mi        83Mi       1.3Mi       781Mi       712Mi
+Swap:          2.0Gi        52Mi       1.9Gi
+=== 10:00:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       910Mi       103Mi       1.3Mi       781Mi       732Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       813Mi       200Mi       1.3Mi       781Mi       829Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:00:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       703Mi       310Mi       1.3Mi       781Mi       939Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:01:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       725Mi       288Mi       1.3Mi       781Mi       917Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:01:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       917Mi        96Mi       1.3Mi       781Mi       725Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:01:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       712Mi       301Mi       1.3Mi       781Mi       930Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:01:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       899Mi       122Mi       1.3Mi       773Mi       742Mi
+Swap:          2.0Gi          0B       2.0Gi
+=== 10:01:14 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       514Mi       537Mi       1.3Mi       743Mi       1.1Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       761Mi       290Mi       1.3Mi       743Mi       880Mi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       982Mi        69Mi       1.3Mi       743Mi       659Mi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:24 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       874Mi       177Mi       1.3Mi       743Mi       768Mi
+Swap:          2.0Gi        50Mi       1.9Gi
+=== 10:01:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       898Mi       153Mi       1.3Mi       743Mi       743Mi
+Swap:          2.0Gi       212Mi       1.8Gi
+=== 10:01:30 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       451Mi       600Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       432Mi       619Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       415Mi       636Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:39 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       397Mi       654Mi       1.1Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:42 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       398Mi       653Mi       1.1Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:45 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       398Mi       653Mi       1.1Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:48 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       398Mi       653Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       399Mi       652Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:54 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       399Mi       652Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:01:57 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       400Mi       651Mi       1.3Mi       743Mi       1.2Gi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:02:00 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       143Mi       1.3Mi       550Mi       541Mi
+Swap:          2.0Gi       352Mi       1.7Gi
+=== 10:02:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       234Mi       1.3Mi       550Mi       632Mi
+Swap:          2.0Gi        20Ki       2.0Gi
+=== 10:02:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       776Mi       519Mi       1.3Mi       499Mi       866Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:09 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       253Mi       1.3Mi       506Mi       606Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       820Mi       468Mi       1.3Mi       506Mi       822Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:15 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       115Mi       1.3Mi       506Mi       468Mi
+Swap:          2.0Gi        70Mi       1.9Gi
+=== 10:02:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       256Mi       1.3Mi       511Mi       614Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       135Mi       1.3Mi       502Mi       485Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:25 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       123Mi       1.3Mi       502Mi       473Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       118Mi       1.3Mi       502Mi       467Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       152Mi       1.3Mi       502Mi       502Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:34 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       169Mi       1.3Mi       502Mi       519Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       924Mi       368Mi       1.3Mi       502Mi       718Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:40 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       972Mi       320Mi       1.3Mi       502Mi       669Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.2Gi        93Mi       1.3Mi       502Mi       442Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.2Gi       102Mi       1.3Mi       502Mi       452Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:49 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       899Mi       393Mi       1.3Mi       502Mi       743Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.2Gi        76Mi       1.3Mi       482Mi       406Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       149Mi       1.3Mi       482Mi       479Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:02:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       297Mi       1.3Mi       482Mi       627Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:01 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       294Mi       1.3Mi       482Mi       624Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:04 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.2Gi       107Mi       1.3Mi       482Mi       437Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:07 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.2Gi        71Mi       1.3Mi       470Mi       389Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:10 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       989Mi       334Mi       1.3Mi       470Mi       652Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       295Mi       1.3Mi       470Mi       613Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:16 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       745Mi       578Mi       1.3Mi       470Mi       896Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:19 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       523Mi       801Mi       1.3Mi       470Mi       1.1Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       470Mi       854Mi       1.3Mi       470Mi       1.1Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:25 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       425Mi       899Mi       1.3Mi       470Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       419Mi       904Mi       1.3Mi       470Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       411Mi       913Mi       1.1Mi       470Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       411Mi       912Mi       1.1Mi       470Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:40 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       915Mi       1.1Mi       470Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       916Mi       1.1Mi       470Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       419Mi       900Mi       1.1Mi       474Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:49 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       437Mi       882Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       431Mi       888Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       425Mi       894Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:03:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       418Mi       900Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:06 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       414Mi       905Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:20 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       412Mi       907Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       409Mi       909Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:44 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:50 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       910Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       910Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       912Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:04:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       912Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:03 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:13 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:16 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       407Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:19 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:25 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:29 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       911Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:39 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       405Mi       914Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:42 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       405Mi       914Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:45 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       405Mi       914Mi       1.1Mi       475Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:05:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       387Mi       716Mi       1.1Mi       691Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:06:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       387Mi       716Mi       1.1Mi       691Mi       1.2Gi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:06:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       362Mi       1.3Mi       333Mi       545Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:06:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        58Mi       1.3Mi       334Mi       241Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:06:14 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        76Mi       1.3Mi       328Mi       253Mi
+Swap:          2.0Gi        24Ki       2.0Gi
+=== 10:06:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        83Mi       1.3Mi       318Mi       251Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:20 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       315Mi       1.3Mi       320Mi       485Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       642Mi       830Mi       1.3Mi       320Mi       999Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        79Mi       1.3Mi       320Mi       249Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:29 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        78Mi       1.3Mi       320Mi       247Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       949Mi       524Mi       1.3Mi       320Mi       693Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:35 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        77Mi       1.3Mi       320Mi       246Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:38 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        76Mi       1.3Mi       320Mi       246Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        76Mi       1.3Mi       320Mi       246Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:44 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       321Mi       1.3Mi       320Mi       490Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:47 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        76Mi       1.3Mi       320Mi       246Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:50 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       563Mi       909Mi       1.3Mi       320Mi       1.1Gi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:53 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       468Mi       1.3Mi       320Mi       637Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        81Mi       1.3Mi       320Mi       250Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:06:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        81Mi       1.3Mi       320Mi       250Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        75Mi       1.3Mi       320Mi       244Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       438Mi       1.3Mi       320Mi       607Mi
+Swap:          2.0Gi       272Mi       1.7Gi
+=== 10:07:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        82Mi       1.3Mi       315Mi       246Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       660Mi       811Mi       1.3Mi       321Mi       981Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:14 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        71Mi       1.3Mi       322Mi       243Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       416Mi       1.3Mi       322Mi       588Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:20 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        79Mi       1.3Mi       319Mi       248Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.3Gi        93Mi       1.3Mi       319Mi       261Mi
+Swap:          2.0Gi        32Ki       2.0Gi
+=== 10:07:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.5Gi        88Mi       1.2Mi       181Mi       121Mi
+Swap:          2.0Gi       8.0Mi       2.0Gi
+=== 10:07:30 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.5Gi        79Mi       1.2Mi       183Mi       114Mi
+Swap:          2.0Gi       8.0Mi       2.0Gi
+=== 10:07:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi       201Mi       1.2Mi       184Mi       237Mi
+Swap:          2.0Gi       8.0Mi       2.0Gi
+=== 10:07:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       528Mi       1.2Mi       184Mi       564Mi
+Swap:          2.0Gi       8.0Mi       2.0Gi
+=== 10:07:39 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       469Mi       1.1Gi       1.1Mi       187Mi       1.1Gi
+Swap:          2.0Gi       6.7Mi       2.0Gi
+=== 10:07:42 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       459Mi       1.1Gi       1.1Mi       187Mi       1.2Gi
+Swap:          2.0Gi       6.7Mi       2.0Gi
+=== 10:07:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       438Mi       1.1Gi       1.1Mi       187Mi       1.2Gi
+Swap:          2.0Gi       6.7Mi       2.0Gi
+=== 10:07:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       430Mi       1.1Gi       1.1Mi       187Mi       1.2Gi
+Swap:          2.0Gi       6.7Mi       2.0Gi
+=== 10:07:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        75Mi       964Ki       233Mi       161Mi
+Swap:          2.0Gi        26Mi       2.0Gi
+=== 10:08:01 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        59Mi       820Ki       135Mi        50Mi
+Swap:          2.0Gi       368Mi       1.6Gi
+=== 10:08:04 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        58Mi       820Ki       139Mi        52Mi
+Swap:          2.0Gi       765Mi       1.2Gi
+=== 10:08:08 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        59Mi       508Ki       124Mi        45Mi
+Swap:          2.0Gi       1.1Gi       947Mi
+=== 10:08:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        60Mi       444Ki       124Mi        46Mi
+Swap:          2.0Gi       1.4Gi       621Mi
+=== 10:08:14 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        50Mi       440Ki       112Mi        30Mi
+Swap:          2.0Gi       1.7Gi       270Mi
+=== 10:08:17 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       968Mi       711Mi       444Ki        77Mi       673Mi
+Swap:          2.0Gi        41Mi       2.0Gi
+=== 10:08:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        74Mi       424Ki        75Mi        35Mi
+Swap:          2.0Gi       157Mi       1.8Gi
+=== 10:08:24 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        72Mi       424Ki        75Mi        34Mi
+Swap:          2.0Gi       538Mi       1.5Gi
+=== 10:08:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        71Mi       424Ki        76Mi        33Mi
+Swap:          2.0Gi       922Mi       1.1Gi
+=== 10:08:30 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        71Mi       436Ki        94Mi        42Mi
+Swap:          2.0Gi       1.2Gi       786Mi
+=== 10:08:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        51Mi       412Ki        83Mi        17Mi
+Swap:          2.0Gi       1.6Gi       433Mi
+=== 10:08:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        52Mi       412Ki        82Mi        18Mi
+Swap:          2.0Gi       1.9Gi        70Mi
+=== 10:08:40 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       836Mi       828Mi       404Ki       106Mi       806Mi
+Swap:          2.0Gi        54Mi       1.9Gi
+=== 10:08:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        54Mi       392Ki        80Mi        18Mi
+Swap:          2.0Gi       332Mi       1.7Gi
+=== 10:08:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        54Mi       392Ki       108Mi        32Mi
+Swap:          2.0Gi       731Mi       1.3Gi
+=== 10:08:49 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        56Mi       400Ki       116Mi        39Mi
+Swap:          2.0Gi       1.1Gi       956Mi
+=== 10:08:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        59Mi       396Ki       101Mi        34Mi
+Swap:          2.0Gi       1.4Gi       632Mi
+=== 10:08:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        51Mi       336Ki        78Mi        14Mi
+Swap:          2.0Gi       1.7Gi       310Mi
+=== 10:08:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       765Mi       919Mi       332Ki        67Mi       877Mi
+Swap:          2.0Gi        72Mi       1.9Gi
+=== 10:09:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        54Mi       340Ki        86Mi        21Mi
+Swap:          2.0Gi       100Mi       1.9Gi
+=== 10:09:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        54Mi       336Ki        86Mi        21Mi
+Swap:          2.0Gi       490Mi       1.5Gi
+=== 10:09:09 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        56Mi       336Ki        86Mi        23Mi
+Swap:          2.0Gi       887Mi       1.1Gi
+=== 10:09:12 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        55Mi       344Ki        88Mi        23Mi
+Swap:          2.0Gi       1.2Gi       809Mi
+=== 10:09:15 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        55Mi       328Ki        73Mi        16Mi
+Swap:          2.0Gi       1.9Gi       133Mi
+=== 10:09:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.2Gi       444Mi       332Ki        88Mi       412Mi
+Swap:          2.0Gi        79Mi       1.9Gi
+=== 10:09:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        55Mi       324Ki        88Mi        23Mi
+Swap:          2.0Gi       553Mi       1.5Gi
+=== 10:09:24 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        54Mi       324Ki        89Mi        23Mi
+Swap:          2.0Gi       1.0Gi       973Mi
+=== 10:09:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        54Mi       324Ki        81Mi        19Mi
+Swap:          2.0Gi       1.4Gi       593Mi
+=== 10:09:30 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       270Mi       1.4Gi       284Ki       101Mi       1.3Gi
+Swap:          2.0Gi        82Mi       1.9Gi
+=== 10:09:33 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        51Mi       280Ki        82Mi        16Mi
+Swap:          2.0Gi       259Mi       1.7Gi
+=== 10:09:36 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        51Mi       280Ki        82Mi        16Mi
+Swap:          2.0Gi       949Mi       1.1Gi
+=== 10:09:40 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        50Mi       288Ki        86Mi        17Mi
+Swap:          2.0Gi       1.6Gi       392Mi
+=== 10:09:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       262Mi       1.4Gi       252Ki        84Mi       1.3Gi
+Swap:          2.0Gi        82Mi       1.9Gi
+=== 10:09:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        53Mi        76Ki        70Mi        12Mi
+Swap:          2.0Gi       412Mi       1.6Gi
+=== 10:09:49 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        50Mi        76Ki        99Mi        24Mi
+Swap:          2.0Gi       1.1Gi       916Mi
+=== 10:09:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        52Mi        88Ki       121Mi        37Mi
+Swap:          2.0Gi       1.8Gi       227Mi
+=== 10:09:56 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        50Mi        40Ki        70Mi       9.8Mi
+Swap:          2.0Gi       184Mi       1.8Gi
+=== 10:09:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.6Gi        51Mi        44Ki        71Mi        11Mi
+Swap:          2.0Gi       950Mi       1.1Gi
+=== 10:10:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       262Mi       1.4Gi        12Ki        98Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       266Mi       1.4Gi        24Ki       122Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:24 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       278Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       278Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       282Mi       1.3Gi        28Ki       148Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:34 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       282Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       282Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:40 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       282Mi       1.3Gi        32Ki       148Mi       1.3Gi
+Swap:          2.0Gi        86Mi       1.9Gi
+=== 10:10:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       283Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:10:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       283Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:10:49 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       283Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:10:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       283Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:10:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       283Mi       1.3Gi        24Ki       148Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:10:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       312Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:01 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       312Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:04 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       312Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:07 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       313Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:11 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       313Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:15 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       313Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:19 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       310Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:28 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       310Mi       1.3Gi        32Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:31 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       306Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:34 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       306Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       306Mi       1.3Gi        24Ki       175Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:54 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       290Mi       1.1Gi        24Ki       399Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:11:58 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       290Mi       1.1Gi        24Ki       399Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:12:02 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       290Mi       1.1Gi        24Ki       399Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== 10:12:05 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       290Mi       1.1Gi        24Ki       399Mi       1.3Gi
+Swap:          2.0Gi        85Mi       1.9Gi
+=== AFTER Thu Nov 12 10:12:38 AM UTC 2026 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       329Mi       1.0Gi        28Ki       400Mi       1.3Gi
+Swap:          2.0Gi        82Mi       1.9Gi
+NAME      TYPE SIZE  USED PRIO
+/swap.img file   2G 82.8M   -1

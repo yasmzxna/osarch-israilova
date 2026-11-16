@@ -1,0 +1,186 @@
+$ journalctl -k --since "30 min ago" | grep -i -E -B3 -A8 "out of memory|oom-kill"
+Nov 12 10:07:56 lab01-israilova kernel: __vm_enough_memory: pid: 6855, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:07:56 lab01-israilova kernel: __vm_enough_memory: pid: 6855, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:07:56 lab01-israilova kernel: __vm_enough_memory: pid: 6855, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:17 lab01-israilova kernel: systemd invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+Nov 12 10:08:17 lab01-israilova kernel: CPU: 0 UID: 0 PID: 1 Comm: systemd Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:08:17 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:08:17 lab01-israilova kernel: Call Trace:
+Nov 12 10:08:17 lab01-israilova kernel:  <TASK>
+Nov 12 10:08:17 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:08:17 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:08:17 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:08:17 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:08:17 lab01-israilova kernel: [   6855]  1000  6855   933157   352094   351948      146         0  7028736   513527          1000 stress-ng-vm
+Nov 12 10:08:17 lab01-israilova kernel: [   6928]  1000  6928     4028      968      306      662         0    77824        0             0 sleep
+Nov 12 10:08:17 lab01-israilova kernel: [   6929]     0  6929     4567     1172      442      730         0    77824       34             0 sshd-session
+Nov 12 10:08:17 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=6855,uid=1000
+Nov 12 10:08:17 lab01-israilova kernel: Out of memory: Killed process 6855 (stress-ng-vm) total-vm:3732628kB, anon-rss:1407792kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6864kB oom_score_adj:1000
+Nov 12 10:08:17 lab01-israilova systemd-journald[542]: Under memory pressure, flushing caches.
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+--
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:18 lab01-israilova kernel: __vm_enough_memory: pid: 6952, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 12 10:08:38 lab01-israilova kernel: CPU: 0 UID: 1000 PID: 6952 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:08:38 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:08:38 lab01-israilova kernel: Call Trace:
+Nov 12 10:08:38 lab01-israilova kernel:  <TASK>
+Nov 12 10:08:38 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:08:38 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:08:38 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:08:38 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:08:38 lab01-israilova kernel: [   6854]  1000  6854    11557      320        0      320         0    94208      377             0 stress-ng-vm
+Nov 12 10:08:38 lab01-israilova kernel: [   6952]  1000  6952   933157   355374   355227      147         0  7041024   511529          1000 stress-ng-vm
+Nov 12 10:08:38 lab01-israilova kernel: [   7069]  1000  7069     4028      967      305      662         0    77824        0             0 sleep
+Nov 12 10:08:38 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=6952,uid=1000
+Nov 12 10:08:38 lab01-israilova kernel: Out of memory: Killed process 6952 (stress-ng-vm) total-vm:3732628kB, anon-rss:1420908kB, file-rss:588kB, shmem-rss:0kB, UID:1000 pgtables:6876kB oom_score_adj:1000
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:38 lab01-israilova kernel: __vm_enough_memory: pid: 7070, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 12 10:08:59 lab01-israilova kernel: CPU: 1 UID: 1000 PID: 7070 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:08:59 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:08:59 lab01-israilova kernel: Call Trace:
+Nov 12 10:08:59 lab01-israilova kernel:  <TASK>
+Nov 12 10:08:59 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:08:59 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:08:59 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:08:59 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:08:59 lab01-israilova kernel: [   6854]  1000  6854    11557      320        0      320         0    94208      377             0 stress-ng-vm
+Nov 12 10:08:59 lab01-israilova kernel: [   7070]  1000  7070   933157   362647   362501      146         0  7049216   505222          1000 stress-ng-vm
+Nov 12 10:08:59 lab01-israilova kernel: [   7199]  1000  7199     4028      966      305      661         0    81920        0             0 sleep
+Nov 12 10:08:59 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=7070,uid=1000
+Nov 12 10:08:59 lab01-israilova kernel: Out of memory: Killed process 7070 (stress-ng-vm) total-vm:3732628kB, anon-rss:1450004kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6884kB oom_score_adj:1000
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+--
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:08:59 lab01-israilova kernel: __vm_enough_memory: pid: 7203, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:00 lab01-israilova systemd-journald[542]: Under memory pressure, flushing caches.
+Nov 12 10:09:16 lab01-israilova kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 12 10:09:16 lab01-israilova kernel: CPU: 1 UID: 1000 PID: 7203 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:09:16 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:09:16 lab01-israilova kernel: Call Trace:
+Nov 12 10:09:16 lab01-israilova kernel:  <TASK>
+Nov 12 10:09:16 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:09:16 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:09:16 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:09:16 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:09:16 lab01-israilova kernel: [   6854]  1000  6854    11557      320        0      320         0    94208      377             0 stress-ng-vm
+Nov 12 10:09:16 lab01-israilova kernel: [   7203]  1000  7203   933157   364793   364647      146         0  7053312   503571          1000 stress-ng-vm
+Nov 12 10:09:16 lab01-israilova kernel: [   7328]  1000  7328     4028      981      305      676         0    73728        0             0 sleep
+Nov 12 10:09:16 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=7203,uid=1000
+Nov 12 10:09:16 lab01-israilova kernel: Out of memory: Killed process 7203 (stress-ng-vm) total-vm:3732628kB, anon-rss:1458588kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6888kB oom_score_adj:1000
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:16 lab01-israilova kernel: __vm_enough_memory: pid: 7329, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 12 10:09:30 lab01-israilova kernel: CPU: 1 UID: 1000 PID: 7329 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:09:30 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:09:30 lab01-israilova kernel: Call Trace:
+Nov 12 10:09:30 lab01-israilova kernel:  <TASK>
+Nov 12 10:09:30 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:09:30 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:09:30 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:09:30 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:09:30 lab01-israilova kernel: [   6854]  1000  6854    11557      314        0      314         0    94208      377             0 stress-ng-vm
+Nov 12 10:09:30 lab01-israilova kernel: [   7329]  1000  7329   933157   366220   366074      146         0  7053312   502612          1000 stress-ng-vm
+Nov 12 10:09:30 lab01-israilova kernel: [   7404]  1000  7404     4028      976      306      670         0    73728        0             0 sleep
+Nov 12 10:09:30 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=7329,uid=1000
+Nov 12 10:09:30 lab01-israilova kernel: Out of memory: Killed process 7329 (stress-ng-vm) total-vm:3732628kB, anon-rss:1464296kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6888kB oom_score_adj:1000
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:30 lab01-israilova kernel: __vm_enough_memory: pid: 7407, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 12 10:09:42 lab01-israilova kernel: CPU: 0 UID: 1000 PID: 7407 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:09:42 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:09:42 lab01-israilova kernel: Call Trace:
+Nov 12 10:09:42 lab01-israilova kernel:  <TASK>
+Nov 12 10:09:42 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:09:42 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:09:42 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:09:42 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:09:42 lab01-israilova kernel: [   6854]  1000  6854    11557      314        0      314         0    94208      377             0 stress-ng-vm
+Nov 12 10:09:42 lab01-israilova kernel: [   7407]  1000  7407   933157   366145   365999      146         0  7053312   502619          1000 stress-ng-vm
+Nov 12 10:09:42 lab01-israilova kernel: [   7504]  1000  7504     4028      977      305      672         0    69632        0             0 sleep
+Nov 12 10:09:42 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=7407,uid=1000
+Nov 12 10:09:42 lab01-israilova kernel: Out of memory: Killed process 7407 (stress-ng-vm) total-vm:3732628kB, anon-rss:1463996kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6888kB oom_score_adj:1000
+Nov 12 10:09:42 lab01-israilova kernel: workqueue: drm_fb_helper_damage_work hogged CPU for >10000us 11 times, consider switching to WQ_UNBOUND
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+--
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:42 lab01-israilova kernel: __vm_enough_memory: pid: 7542, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:53 lab01-israilova kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 12 10:09:53 lab01-israilova kernel: CPU: 0 UID: 1000 PID: 7542 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 12 10:09:53 lab01-israilova kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 12 10:09:53 lab01-israilova kernel: Call Trace:
+Nov 12 10:09:53 lab01-israilova kernel:  <TASK>
+Nov 12 10:09:53 lab01-israilova kernel:  show_stack+0x49/0x60
+Nov 12 10:09:53 lab01-israilova kernel:  dump_stack_lvl+0x5f/0x90
+Nov 12 10:09:53 lab01-israilova kernel:  dump_stack+0x10/0x18
+Nov 12 10:09:53 lab01-israilova kernel:  dump_header+0x48/0x1c7
+--
+Nov 12 10:09:53 lab01-israilova kernel: [   7569]     0  7569      722      205       13      192         0    49152       18             0 50-landscape-sy
+Nov 12 10:09:53 lab01-israilova kernel: [   7571]     0  7571    14758     8087     7357      730         0   159744       26             0 landscape-sysin
+Nov 12 10:09:53 lab01-israilova kernel: [   7574]  1000  7574     4028      969      305      664         0    69632        0             0 sleep
+Nov 12 10:09:53 lab01-israilova kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-58.scope,task=stress-ng-vm,pid=7542,uid=1000
+Nov 12 10:09:53 lab01-israilova kernel: Out of memory: Killed process 7542 (stress-ng-vm) total-vm:3732628kB, anon-rss:1436552kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6824kB oom_score_adj:1000
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation
+Nov 12 10:09:54 lab01-israilova kernel: __vm_enough_memory: pid: 7576, comm: stress-ng-vm, bytes: 4294967296 not enough memory for the allocation

@@ -1,0 +1,135 @@
+=== 09:59:25 START stress-ng --vm 2 --vm-bytes 70% ===
+stress-ng: info:  [3649] setting to a 1 min run per stressor
+stress-ng: info:  [3649] dispatching hogs: 2 vm
+stress-ng: info:  [3650] vm: using 199.93MB per stressor instance (total 399.85MB of 571.04MB available memory)
+stress-ng: metrc: [3649] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [3649]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [3649] vm              2284748     60.17     86.63     28.64     37969.11       19820.70
+stress-ng: info:  [3649] skipped: 0
+stress-ng: info:  [3649] passed: 2: vm (2)
+stress-ng: info:  [3649] failed: 0
+stress-ng: info:  [3649] metrics untrustworthy: 0
+stress-ng: info:  [3649] successful run completed in 1 min
+	Command being timed: "stress-ng --vm 2 --vm-bytes 70% --timeout 60s --metrics-brief"
+	User time (seconds): 86.63
+	System time (seconds): 28.65
+	Percent of CPU this job got: 191%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 234404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3550661
+	Voluntary context switches: 17
+	Involuntary context switches: 4135
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+=== 10:00:26 END 70% (exit 0) ===
+=== 10:00:36 START stress-ng --vm 2 --vm-bytes 90% ===
+stress-ng: info:  [4075] setting to a 1 min run per stressor
+stress-ng: info:  [4075] dispatching hogs: 2 vm
+stress-ng: info:  [4076] vm: using 264.62MB per stressor instance (total 529.24MB of 588.04MB available memory)
+stress-ng: metrc: [4075] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [4075]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [4075] vm              3020566     60.22     75.19     38.47     50159.60       26577.06
+stress-ng: info:  [4075] skipped: 0
+stress-ng: info:  [4075] passed: 2: vm (2)
+stress-ng: info:  [4075] failed: 0
+stress-ng: info:  [4075] metrics untrustworthy: 0
+stress-ng: info:  [4075] successful run completed in 1 min
+	Command being timed: "stress-ng --vm 2 --vm-bytes 90% --timeout 60s --metrics-brief"
+	User time (seconds): 75.20
+	System time (seconds): 38.46
+	Percent of CPU this job got: 188%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4090237
+	Voluntary context switches: 873
+	Involuntary context switches: 4817
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+=== 10:01:36 END 90% (exit 0) ===
+=== 10:01:46 START stress-ng --vm 2 --vm-bytes 120% ===
+stress-ng: info:  [4600] setting to a 1 min 30 secs run per stressor
+stress-ng: info:  [4600] dispatching hogs: 2 vm
+stress-ng: info:  [4601] vm: using 392.10MB per stressor instance (total 784.20MB of 651.50MB available memory)
+stress-ng: metrc: [4600] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [4600]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [4600] vm              4475350     90.40    114.47     56.82     49506.38       26128.67
+stress-ng: info:  [4600] skipped: 0
+stress-ng: info:  [4600] passed: 2: vm (2)
+stress-ng: info:  [4600] failed: 0
+stress-ng: info:  [4600] metrics untrustworthy: 0
+stress-ng: info:  [4600] successful run completed in 1 min 42.30 secs
+	Command being timed: "stress-ng --vm 2 --vm-bytes 120% --timeout 90s --metrics-brief"
+	User time (seconds): 114.46
+	System time (seconds): 56.83
+	Percent of CPU this job got: 167%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 455752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 6087979
+	Voluntary context switches: 1014
+	Involuntary context switches: 7107
+	Swaps: 0
+	File system inputs: 112
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+=== 10:03:28 END 120% (exit 0) ===
+=== 10:06:06 START stress-ng --vm 2 --vm-bytes 150% --timeout 90s ===
+stress-ng: info:  [6126] setting to a 1 min 30 secs run per stressor
+stress-ng: info:  [6126] dispatching hogs: 2 vm
+stress-ng: info:  [6128] vm: using 511.75MB per stressor instance (total 1023.50MB of 681.61MB available memory)
+stress-ng: metrc: [6126] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [6126]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [6126] vm              5525691     90.49    116.20     57.61     61062.88       31789.96
+stress-ng: info:  [6126] skipped: 0
+stress-ng: info:  [6126] passed: 2: vm (2)
+stress-ng: info:  [6126] failed: 0
+stress-ng: info:  [6126] metrics untrustworthy: 0
+stress-ng: info:  [6126] successful run completed in 1 min 30.51 secs
+=== 10:07:37 END 150% (exit 0) ===
+=== 10:07:55 START stress-ng --vm 1 --vm-bytes 4G --vm-keep --timeout 120s ===
+stress-ng: info:  [6853] setting to a 2 mins run per stressor
+stress-ng: info:  [6853] dispatching hogs: 1 vm
+stress-ng: info:  [6854] vm: using 4GB per stressor instance (total 4GB of 1006.85MB available memory)
+stress-ng: warn:  [6853] metrics-check: all bogo-op counters are zero, data may be incorrect
+stress-ng: metrc: [6853] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [6853]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [6853] vm                    0    126.02      3.66     80.46         0.00           0.00
+stress-ng: info:  [6853] skipped: 0
+stress-ng: info:  [6853] passed: 1: vm (1)
+stress-ng: info:  [6853] failed: 0
+stress-ng: info:  [6853] metrics untrustworthy: 0
+stress-ng: info:  [6853] successful run completed in 2 mins 6.03 secs
+=== 10:10:02 END 4G (exit 0) ===

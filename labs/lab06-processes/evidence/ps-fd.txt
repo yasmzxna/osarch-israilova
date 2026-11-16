@@ -1,0 +1,20 @@
+Thu Nov 12 09:52:24 AM UTC 2026
+$ ps -o pid,ppid,user,rss,vsz,nlwp,cmd -p 2327
+    PID    PPID USER       RSS    VSZ NLWP CMD
+   2327       1 root      3712 292100    9 /usr/sbin/VBoxService
+$ sudo ls /proc/2327/fd | wc -l
+5
+$ sudo ls -l /proc/2327/fd
+total 0
+lrwx------ 1 root root 64 Nov 12 09:55 0 -> /dev/null
+lrwx------ 1 root root 64 Nov 12 09:55 1 -> /dev/null
+lrwx------ 1 root root 64 Nov 12 09:55 2 -> /dev/null
+lrwx------ 1 root root 64 Nov 12 09:55 3 -> /dev/vboxguest
+lrwx------+1 root root 64 Nov 12 09:55 4 -> socket:[19686]
+$ grep -E "VmSize|VmRSS|RssAnon|RssFile|RssShmem|Threads" /proc/2327/status
+VmSize:	  292100 kB
+VmRSS:	    3712 kB
+RssAnon:	     416 kB
+RssFile:	    3296 kB
+RssShmem:	       0 kB
+Threads:	9
