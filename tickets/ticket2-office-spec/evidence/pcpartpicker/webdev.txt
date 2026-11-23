@@ -1,0 +1,25 @@
+PCPartPicker Part List: https://pcpartpicker.com/list/4mLByF
+Build: web developer          Checked: 2026-11-23
+
+CPU: AMD Ryzen 7 5700G 3.8 GHz 8-Core Processor
+CPU Cooler: ID-COOLING SE-214-XT 64.8 CFM CPU Cooler
+Motherboard: Gigabyte B550M AORUS ELITE Micro ATX AM4 Motherboard
+Memory: G.Skill Aegis 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory
+Storage: Kingston NV3 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive
+Case: Montech X3 Mesh ATX Mid Tower Case
+Power Supply: Montech GAMMA II 650 W 80+ Gold Certified ATX Power Supply
+Operating System: (none on the list - Ubuntu 26.04 LTS, free)
+
+Estimated Wattage: 174W
+
+Potential Issues:
+A  Warning: The Gigabyte B550M AORUS ELITE supports the AMD Ryzen 7 5700G with BIOS
+   version F13. If the motherboard is using an older BIOS version, updating the BIOS
+   will be necessary to support the CPU.
+B  Disclaimer: Some physical constraints are not checked, such as RAM clearance with CPU Coolers.
+
+Free for upgrades: RAM_3 and RAM_4 (the planned 32 -> 64 GB upgrade), M2_2, PCIE_1 (x16).
+
+Note: PCPartPicker prices (USD) are not used anywhere in this ticket; all prices are in budget.csv (DNS, KZT).
+The office PSU in budget.csv is MONTECH BETA 650; it is not in PCPartPicker, so GAMMA II 650 (same brand, 650 W, ATX) stands in for the check.
+The monitor (Xiaomi A27Qi 2026) is not in PCPartPicker and does not affect compatibility.

@@ -1,0 +1,24 @@
+Budget check - run on 2026-11-23 21:22 in PowerShell, in tickets/ticket2-office-spec/
+
+Command:
+$rows = Import-Csv budget.csv -Encoding UTF8 | Where-Object { $_.role -ne 'ALL' -and $_.component -ne 'TOTAL' }
+$rows | Group-Object role | ForEach-Object { [pscustomobject]@{ role = $_.Name; parts = $_.Count; sum_kzt = ($_.Group | Measure-Object price_kzt -Sum).Sum } } | Format-Table -AutoSize
+$grand = ($rows | Measure-Object price_kzt -Sum).Sum
+"Grand total: $grand KZT"; "Budget:      3000000 KZT"; "Reserve:     $(3000000 - $grand) KZT"; "Within budget: $($grand -le 3000000)"
+"Rows without a date: $(@($rows | Where-Object { -not $_.date }).Count)"
+
+Output:
+
+role       parts sum_kzt
+----       ----- -------
+accountant    12  676720
+sales         12  656300
+webdev        10  551900
+designer      11 1101370
+
+
+Grand total: 2986290 KZT
+Budget:      3000000 KZT
+Reserve:     13710 KZT
+Within budget: True
+Rows without a date: 0

@@ -1,0 +1,53 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,AMD Ryzen 7 5700G OEM (AM4 8C/16T Radeon Vega 8),113290,https://www.dns-shop.kz/product/971f9eef3a4bed20/processor-amd-ryzen-7-5700g-oem/,2026-11-23
+accountant,CPU cooler,ID-COOLING SE-214-XT BLACK,8840,https://www.dns-shop.kz/product/6d6a5f5c7111d582/kuler-dla-processora-id-cooling-se-214-xt-black-cernyj/,2026-11-23
+accountant,Motherboard,GIGABYTE B550M AORUS ELITE (AM4 B550 4x DDR4 2x M.2),54910,https://www.dns-shop.kz/product/c44cd14acc801b80/materinskaa-plata-gigabyte-b550m-aorus-elite/,2026-11-23
+accountant,Memory,ADATA XPG SPECTRIX D35G DDR4-3200 16 GB (2x8 GB) AX4U32008G16A-DTBKD35G,60070,https://www.dns-shop.kz/product/1b99765b1634ed20/operativnaa-pamat-ddr4-udimm-adata-xpg-spectrix-d35g-rgb-ax4u32008g16a-dtbkd35g-16-gb/,2026-11-23
+accountant,SSD,Kingston NV3 1 TB M.2 NVMe SNV3S/1000G,82690,https://www.dns-shop.kz/product/fe0d78e690d9d582/1000-gb-m2-nvme-nakopitel-kingston-nv3-snv3s1000g/,2026-11-23
+accountant,PSU,MONTECH BETA 650 (650 W 80+ Bronze),23100,https://www.dns-shop.kz/product/84855a203bb5ed20/blok-pitania-montech-beta-650-beta-650-cernyj/,2026-11-23
+accountant,Case,MONTECH X3 MESH (B) Mid-Tower no PSU,29440,https://www.dns-shop.kz/product/4c410afb42c1ed20/korpus-montech-x3-mesh-x3-mesh-b-cernyj/,2026-11-23
+accountant,Operating system,Microsoft Windows 11 Pro 64-bit FPP BOX (USB),118650,https://www.dns-shop.kz/product/73e72ca0b81b052f/operacionnaa-sistema-microsoft-windows-11-pro/,2026-11-23
+accountant,Monitor,Xiaomi A27Qi 2026 27-inch 2560x1440 IPS,87290,https://www.dns-shop.kz/product/58e30096c382d582/27-monitor-xiaomi-a27qi-2026-cernyj/,2026-11-23
+accountant,UPS,CyberPower UT650EG (650 VA / 360 W line-interactive USB),20330,https://www.dns-shop.kz/product/25008524b18c3330/ibp-cyberpower-ut650eg/,2026-11-23
+accountant,Backup drive,Seagate Basic 2 TB external HDD STJL2000400 (USB 3.2 Gen 1),58260,https://www.dns-shop.kz/product/8205ad9709a03332/2-tb-vnesnij-hdd-seagate-basic-stjl2000400/,2026-11-23
+accountant,Keyboard + mouse,Logitech MK295 Silent Wireless Combo,19850,https://www.dns-shop.kz/product/def0451b045f1b80/klaviaturamys-besprovodnaa-logitech-mk295-silent-wireless-combo-cernyj/,2026-11-23
+accountant,TOTAL,,676720,,
+sales,CPU,AMD Ryzen 7 5700G OEM (AM4 8C/16T Radeon Vega 8),113290,https://www.dns-shop.kz/product/971f9eef3a4bed20/processor-amd-ryzen-7-5700g-oem/,2026-11-23
+sales,CPU cooler,ID-COOLING SE-214-XT BLACK,8840,https://www.dns-shop.kz/product/6d6a5f5c7111d582/kuler-dla-processora-id-cooling-se-214-xt-black-cernyj/,2026-11-23
+sales,Motherboard,GIGABYTE B550M AORUS ELITE (AM4 B550 4x DDR4 2x M.2),54910,https://www.dns-shop.kz/product/c44cd14acc801b80/materinskaa-plata-gigabyte-b550m-aorus-elite/,2026-11-23
+sales,Memory,G.Skill Aegis DDR4-3200 32 GB (2x16 GB) F4-3200C16D-32GIS,132490,https://www.dns-shop.kz/product/90af6f65c774ed20/operativnaa-pamat-ddr4-udimm-gskill-aegis-f4-3200c16d-32gis-32-gb/,2026-11-23
+sales,SSD,Kingston NV3 1 TB M.2 NVMe SNV3S/1000G,82690,https://www.dns-shop.kz/product/fe0d78e690d9d582/1000-gb-m2-nvme-nakopitel-kingston-nv3-snv3s1000g/,2026-11-23
+sales,PSU,MONTECH BETA 650 (650 W 80+ Bronze),23100,https://www.dns-shop.kz/product/84855a203bb5ed20/blok-pitania-montech-beta-650-beta-650-cernyj/,2026-11-23
+sales,Case,MONTECH X3 MESH (B) Mid-Tower no PSU,29440,https://www.dns-shop.kz/product/4c410afb42c1ed20/korpus-montech-x3-mesh-x3-mesh-b-cernyj/,2026-11-23
+sales,Operating system,Microsoft Windows 11 Pro 64-bit FPP BOX (USB),118650,https://www.dns-shop.kz/product/73e72ca0b81b052f/operacionnaa-sistema-microsoft-windows-11-pro/,2026-11-23
+sales,Monitor,Xiaomi A24i 23.8-inch 1920x1080 IPS 100 Hz,45890,https://www.dns-shop.kz/product/023a0191e1b1ed20/238-monitor-xiaomi-a24i-cernyj/,2026-11-23
+sales,Headset,Logitech H390 USB headset with microphone,13860,https://www.dns-shop.kz/product/fd56f1a365abd0a4/provodnye-nausniki-logitech-h390-cernyj-2015/,2026-11-23
+sales,Webcam,Logitech C270 (720p),13290,https://www.dns-shop.kz/product/5b3ed8272511ed20/veb-kamera-logitech-c270/,2026-11-23
+sales,Keyboard + mouse,Logitech MK295 Silent Wireless Combo,19850,https://www.dns-shop.kz/product/def0451b045f1b80/klaviaturamys-besprovodnaa-logitech-mk295-silent-wireless-combo-cernyj/,2026-11-23
+sales,TOTAL,,656300,,
+webdev,CPU,AMD Ryzen 7 5700G OEM (AM4 8C/16T Radeon Vega 8),113290,https://www.dns-shop.kz/product/971f9eef3a4bed20/processor-amd-ryzen-7-5700g-oem/,2026-11-23
+webdev,CPU cooler,ID-COOLING SE-214-XT BLACK,8840,https://www.dns-shop.kz/product/6d6a5f5c7111d582/kuler-dla-processora-id-cooling-se-214-xt-black-cernyj/,2026-11-23
+webdev,Motherboard,GIGABYTE B550M AORUS ELITE (AM4 B550 4x DDR4 2x M.2),54910,https://www.dns-shop.kz/product/c44cd14acc801b80/materinskaa-plata-gigabyte-b550m-aorus-elite/,2026-11-23
+webdev,Memory,G.Skill Aegis DDR4-3200 32 GB (2x16 GB) F4-3200C16D-32GIS,132490,https://www.dns-shop.kz/product/90af6f65c774ed20/operativnaa-pamat-ddr4-udimm-gskill-aegis-f4-3200c16d-32gis-32-gb/,2026-11-23
+webdev,SSD,Kingston NV3 1 TB M.2 NVMe SNV3S/1000G,82690,https://www.dns-shop.kz/product/fe0d78e690d9d582/1000-gb-m2-nvme-nakopitel-kingston-nv3-snv3s1000g/,2026-11-23
+webdev,PSU,MONTECH BETA 650 (650 W 80+ Bronze),23100,https://www.dns-shop.kz/product/84855a203bb5ed20/blok-pitania-montech-beta-650-beta-650-cernyj/,2026-11-23
+webdev,Case,MONTECH X3 MESH (B) Mid-Tower no PSU,29440,https://www.dns-shop.kz/product/4c410afb42c1ed20/korpus-montech-x3-mesh-x3-mesh-b-cernyj/,2026-11-23
+webdev,Operating system,Ubuntu 26.04 LTS Desktop (free licence - GPL / Canonical IP policy),0,https://ubuntu.com/download/desktop,2026-11-23
+webdev,Monitor,Xiaomi A27Qi 2026 27-inch 2560x1440 IPS,87290,https://www.dns-shop.kz/product/58e30096c382d582/27-monitor-xiaomi-a27qi-2026-cernyj/,2026-11-23
+webdev,Keyboard + mouse,Logitech MK295 Silent Wireless Combo,19850,https://www.dns-shop.kz/product/def0451b045f1b80/klaviaturamys-besprovodnaa-logitech-mk295-silent-wireless-combo-cernyj/,2026-11-23
+webdev,TOTAL,,551900,,
+designer,CPU,AMD Ryzen 7 5700X OEM (AM4 8C/16T no iGPU),84230,https://www.dns-shop.kz/product/96054164afeaed20/processor-amd-ryzen-7-5700x-oem/,2026-11-23
+designer,CPU cooler,ID-COOLING SE-214-XT BLACK,8840,https://www.dns-shop.kz/product/6d6a5f5c7111d582/kuler-dla-processora-id-cooling-se-214-xt-black-cernyj/,2026-11-23
+designer,Motherboard,GIGABYTE B550M AORUS ELITE (AM4 B550 4x DDR4 2x M.2),54910,https://www.dns-shop.kz/product/c44cd14acc801b80/materinskaa-plata-gigabyte-b550m-aorus-elite/,2026-11-23
+designer,Memory,G.Skill Aegis DDR4-3200 32 GB (2x16 GB) F4-3200C16D-32GIS,132490,https://www.dns-shop.kz/product/90af6f65c774ed20/operativnaa-pamat-ddr4-udimm-gskill-aegis-f4-3200c16d-32gis-32-gb/,2026-11-23
+designer,Graphics card,MSI GeForce RTX 5060 VENTUS 2X OC 8 GB GDDR7,289990,https://www.dns-shop.kz/product/1ae78cdd169ed9cb/videokarta-msi-geforce-rtx-5060-ventus-2x-oc-rtx-5060-8g-ventus-2x-oc/,2026-11-23
+designer,SSD,Kingston NV3 1 TB M.2 NVMe SNV3S/1000G,82690,https://www.dns-shop.kz/product/fe0d78e690d9d582/1000-gb-m2-nvme-nakopitel-kingston-nv3-snv3s1000g/,2026-11-23
+designer,PSU,MONTECH GAMMA II 650 (650 W 80+ Gold),32430,https://www.dns-shop.kz/product/b23177733bb8ed20/blok-pitania-montech-gamma-ii-650-gamma-ii-650-cernyj/,2026-11-23
+designer,Case,MONTECH X3 MESH (B) Mid-Tower no PSU,29440,https://www.dns-shop.kz/product/4c410afb42c1ed20/korpus-montech-x3-mesh-x3-mesh-b-cernyj/,2026-11-23
+designer,Operating system,Microsoft Windows 11 Pro 64-bit FPP BOX (USB),118650,https://www.dns-shop.kz/product/73e72ca0b81b052f/operacionnaa-sistema-microsoft-windows-11-pro/,2026-11-23
+designer,Monitor,ASUS ProArt PA278QV 27-inch 2560x1440 IPS 100% sRGB factory calibrated,247850,https://www.dns-shop.kz/product/e021fade94db3332/27-monitor-asus-proart-pa278qv-cernyj/,2026-11-23
+designer,Keyboard + mouse,Logitech MK295 Silent Wireless Combo,19850,https://www.dns-shop.kz/product/def0451b045f1b80/klaviaturamys-besprovodnaa-logitech-mk295-silent-wireless-combo-cernyj/,2026-11-23
+designer,TOTAL,,1101370,,
+ALL,GRAND TOTAL,4 machines incl. monitors and operating systems,2986290,,
+ALL,BUDGET,Director's budget,3000000,,
+ALL,RESERVE,Budget minus grand total,13710,,

@@ -1,0 +1,30 @@
+PCPartPicker Part List: https://pcpartpicker.com/list/WR4v2k
+Build: designer          Checked: 2026-11-23
+
+CPU: AMD Ryzen 7 5700X 3.4 GHz 8-Core Processor
+CPU Cooler: ID-COOLING SE-214-XT 64.8 CFM CPU Cooler
+Motherboard: Gigabyte B550M AORUS ELITE Micro ATX AM4 Motherboard
+Memory: G.Skill Aegis 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory
+Storage: Kingston NV3 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive
+Video Card: MSI VENTUS 2X OC GeForce RTX 5060 8 GB Video Card
+Case: Montech X3 Mesh ATX Mid Tower Case
+Power Supply: Montech GAMMA II 650 W 80+ Gold Certified ATX Power Supply
+Operating System: Microsoft Windows 11 Pro Retail - USB 64-bit
+Monitor: Asus ProArt Display PA278QV 27.0" 2560 x 1440 75 Hz Monitor
+
+Estimated Wattage: 319W
+
+Potential Issues:
+A  Warning: The Gigabyte B550M AORUS ELITE Micro ATX AM4 Motherboard supports the
+   AMD Ryzen 7 5700X 3.4 GHz 8-Core Processor with BIOS version F14. If the motherboard
+   is using an older BIOS version, updating the BIOS will be necessary to support the CPU.
+B  Disclaimer: Some physical constraints are not checked, such as RAM clearance with CPU Coolers.
+
+Motherboard / PSU usage (as reported by PCPartPicker):
+PCIE_1 (x16) .............. MSI VENTUS 2X OC GeForce RTX 5060 8 GB
+PCIE_2 (x1) ............... covered by the graphics card
+RAM_1, RAM_2 .............. G.Skill Aegis 32 GB kit; RAM_3, RAM_4 free
+M2_1 ...................... Kingston NV3 1 TB; M2_2 free
+PSU PCIE_1 (6+2-pin) ...... graphics card (PCIe 8-pin); PCIE_2 free
+
+Note: PCPartPicker prices (USD) are not used anywhere in this ticket; all prices are in budget.csv (DNS, KZT).
